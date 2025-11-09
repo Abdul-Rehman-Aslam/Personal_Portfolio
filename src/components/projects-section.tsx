@@ -47,6 +47,19 @@ const projects = [
   },
   {
     id: 4,
+    title: "Highploom",
+    description: "First no-code application platform enabling Financial Institutions to create and deploy onboarding and customer engagement environments without a single line of code. Features include white-label customer interface, live chat & secure messaging, digital marketing manager, 360-degree customer views, and admin screens. Enables omni-access to services with human-to-human interactions at scale, resulting in 30% increase in sales of financial products & services.",
+    image: "/images/project-default.svg",
+    technologies: ["No-Code Platform", "Financial Services", "Customer Engagement", "White-Label Solutions", "Queue Management", "Digital Marketing"],
+    githubUrl: "#",
+    liveUrl: "https://www.highploom.com/",
+    featured: true,
+    category: "Enterprise Software",
+    date: "2024",
+    team: "Team Project"
+  },
+  {
+    id: 5,
     title: "E-Commerce Platform",
     description: "A full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.",
     image: "/images/project-default.svg",
@@ -59,7 +72,7 @@ const projects = [
     team: "Solo Project"
   },
   {
-    id: 5,
+    id: 6,
     title: "Task Management App",
     description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
     image: "/images/project-default.svg",
@@ -72,7 +85,7 @@ const projects = [
     team: "Team of 3"
   },
   {
-    id: 6,
+    id: 7,
     title: "Weather Dashboard",
     description: "A responsive weather dashboard with location-based forecasts, interactive maps, and detailed weather analytics.",
     image: "/images/project-default.svg",
@@ -85,7 +98,7 @@ const projects = [
     team: "Solo Project"
   },
   {
-    id: 7,
+    id: 8,
     title: "Blog CMS",
     description: "A content management system for blogs with markdown support, SEO optimization, and admin panel for content management.",
     image: "/images/project-default.svg",
@@ -98,7 +111,7 @@ const projects = [
     team: "Solo Project"
   },
   {
-    id: 8,
+    id: 9,
     title: "Social Media Analytics",
     description: "A comprehensive analytics dashboard for social media metrics with data visualization and reporting features.",
     image: "/images/project-default.svg",
@@ -111,7 +124,7 @@ const projects = [
     team: "Team of 4"
   },
   {
-    id: 9,
+    id: 10,
     title: "Portfolio Website",
     description: "A modern, responsive portfolio website with smooth animations, dark mode, and contact form integration.",
     image: "/images/project-default.svg",
