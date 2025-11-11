@@ -48,12 +48,12 @@ export function HeroSection() {
           transition={{ duration: 0.8 }}
           className="space-y-8"
         >
-          {/* Profile Image */}
+          {/* Profile Image - Logo centered above name */}
           <motion.div
             initial={{ scale: 0.9, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="relative mx-auto mb-8"
+            className="flex justify-center items-center mb-6 w-full"
           >
             <div className="relative w-32 h-32 rounded-full overflow-hidden ring-2 ring-primary/40 shadow-[0_0_0_8px_rgba(108,124,255,0.12)]">
               <Image src="/images/profile.svg" alt="Profile" fill priority sizes="128px" />
@@ -65,9 +65,9 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="space-y-4"
+            className="space-y-4 w-full flex flex-col items-center"
           >
-            <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold">
+            <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-center">
               <span className="gradient-text">Abdul Rehman</span>
             </h1>
             <h2 className="text-xl sm:text-2xl lg:text-3xl text-muted-foreground font-medium">
